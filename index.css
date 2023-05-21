@@ -1,0 +1,315 @@
+
+
+/* colors that can be used:
+#C2EBF5 
+#04A38B
+#FCB647
+#223148
+*/
+
+
+
+* {
+  font-family: 'Amatic SC', cursive;
+}
+
+nav {
+  background-color: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  position: relative;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+nav li:hover {
+  background: rgb(174,219,238);
+  background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+  border-radius: 10px;
+}
+
+nav li:hover a {
+  color: black;
+}
+
+nav li a {
+  display: block;
+  color: #ccc;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+  
+  .left {
+    float: left;
+    width: 50%;
+  }
+  
+  .right {
+    float: right;
+    width: 50%;
+    background-color: #4DB3A0;
+    border-radius: 35px;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 36, 61);
+    background-color: rgb(174,219,238);
+    border-radius: 35px;
+  }
+  
+  h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 36, 61);
+  }
+  
+  p {
+    background-color: #D77E29;
+    border-radius: 35px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+
+  }
+
+  .class img{
+    display: flex;
+    width: 20px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  /* for min width 320 px and max width 480 px i.e for mobiles */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    nav {
+      background-color: #333;
+      border-radius: 15px;
+      overflow: hidden;
+      width: 100%;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav li {
+      position: relative;
+      padding: 6px;
+      flex: 1;
+      text-align: center;
+    }
+    
+    nav li:hover {
+      background: rgb(174,219,238);
+      background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+      border-radius: 10px;
+    }
+    
+    nav li:hover a {
+      color: black;
+    }
+    
+    nav li a {
+      display: block;
+      color: #ccc;
+      font-size: 15px;
+      text-align: center;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+      
+      .left {
+        float: left;
+        width: 50%;
+      }
+      
+      .right {
+        float: right;
+        width: 50%;
+        background-color: #4DB3A0;
+        border-radius: 35px;
+      }
+      
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 15px;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        color: rgb(8, 36, 61);
+        background-color: rgb(174,219,238);
+        border-radius: 35px;
+      }
+      
+      h2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 15px;
+        margin: 0;
+        padding: 6px;
+        text-align: center;
+        color: rgb(8, 36, 61);
+      }
+      
+      p {
+        background-color: #D77E29;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 8px;
+        text-align: center;
+        position: absolute;
+        font-size: 8px;
+    
+      }
+    
+      .class img{
+        display: flex;
+        width: 20px;
+        height: auto;
+        border-radius: 15px;
+      }
+    
+
+  }
+  
+
+  /* code for responsiveness,
+  this is for tablets, 
+  the min width is 481 px and the max width is 768 px */
+
+  @media (min-width: 481px) and (max-width: 768px) {
+  nav {
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    position: relative;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav li:hover {
+    background: rgb(174,219,238);
+    background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+    border-radius: 10px;
+  }
+  
+  nav li:hover a {
+    color: black;
+  }
+  
+  nav li a {
+    display: block;
+    color: #ccc;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+    
+    .left {
+      float: left;
+      width: 50%;
+    }
+    
+    .right {
+      float: right;
+      width: 50%;
+      background-color: #4DB3A0;
+      border-radius: 35px;
+    }
+    
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    h1 {
+      font-family: 'Amatic SC', cursive;
+      font-size: 30px;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      color: rgb(8, 36, 61);
+      background-color: rgb(174,219,238);
+      border-radius: 35px;
+    }
+    
+    h2{
+      font-family: 'Amatic SC', cursive;
+      font-size: 20px;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      color: rgb(8, 36, 61);
+    }
+    
+    p {
+      background-color: #D77E29;
+      border-radius: 35px;
+      display: inline-block;
+      padding: 5px;
+      text-align: center;
+      position: absolute;
+  
+    }
+  
+    .class img{
+      display: flex;
+      width: 30px;
+      height: auto;
+      border-radius: 15px;
+    }
+
+  }
+
