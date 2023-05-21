@@ -1,0 +1,120 @@
+body{
+  text-align: center;
+  background-color: #C2EBF5;
+}
+
+nav {
+  background-color: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  position: relative;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+nav li:hover {
+  background: rgb(174,219,238);
+  background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+  border-radius: 10px;
+}
+
+nav li:hover a {
+  color: black;
+}
+
+nav li a {
+  display: block;
+  color: #ccc;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+  /* .books {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+
+  .books div {
+    margin: 15px;
+    width: 200px; 
+    height: 300px; 
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .books img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+  @media (min-width: 768px) {
+    .books {
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .books {
+      flex-direction: column;
+      align-items: center;
+    }
+  } */
+
+
+  .books {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+
+  .books div {
+    margin: 15px;
+    width: 200px; 
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .books img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    margin-top: 0; /* Added to remove the small gap above the image */
+  }
+
+  .books h2,
+  .books p {
+    text-align: center;
+    margin-top: 0; /* Added to remove the small gap above the text */
+  }
+
+
+  h1{
+    color: #a6ae42;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #223148;
+    padding: 10px;
+  }

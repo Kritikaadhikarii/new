@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/333537.jpg);
+}
+
+
+nav {
+  background-color: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  position: relative;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+nav li:hover {
+  background: rgb(174,219,238);
+  background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+  border-radius: 10px;
+}
+
+nav li:hover a {
+  color: black;
+}
+
+nav li a {
+  display: block;
+  color: #ccc;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.box{
+  background-color: #C2EBF5;
+  color: #213047;
+  display: inline-block;
+  padding: 20px;
+}

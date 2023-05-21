@@ -1,0 +1,110 @@
+body{
+    background: rgb(174,219,238);
+    background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+
+nav {
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    position: relative;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav li:hover {
+    background: rgb(174,219,238);
+    background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+    border-radius: 10px;
+  }
+  
+  nav li:hover a {
+    color: black;
+  }
+  
+  nav li a {
+    display: block;
+    color: #ccc;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  h1{
+    border-radius: 15px;
+    background-color: #223148;
+    color: rgb(190, 190, 75);
+    display: inline-block;
+    padding: 10px;
+  }
+
+  h2{
+    border-radius: 15px;
+    background-color: #2d394b;
+    color: rgb(190, 190, 75);
+    display: inline-block;
+    padding: 10px;
+  }
+
+
+.box{
+    background-color: #7fbdcd;
+    border-radius: 15px;
+    border-style: dotted;
+    text-align: center; 
+    display: inline-block;
+    padding: 20px;
+}
+
+ /* making the code responsive for mobiles, using min width as 320 px and max width as 480 px */
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 5px;
+      }
+  
+      h2 {
+        font-size: 18px;
+        padding: 5px;
+      }
+  
+      .box {
+        padding: 5px;
+      }
+
+}
+
+
+ /* making the code responsive for tablets, using min width as 481 px and max width as 768 px */
+@media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        padding: 5px;
+      }
+  
+      h2 {
+        font-size: 20px;
+        padding: 5px;
+      }
+  
+      .box {
+        padding: 10px;
+      }
+    }
+
